@@ -1,6 +1,6 @@
 {{config(
-    Schema='staging',
-    database='dev',
+    schema='STAGING',
+    database='DEV',
     materialized='table'
 )}}
 
