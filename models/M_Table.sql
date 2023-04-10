@@ -4,4 +4,4 @@
     materialized='table'
 )}}
 
-select * from "NATION" limit 5
+select * from DEV.PUBLIC.NATION limit 5
