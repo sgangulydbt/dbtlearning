@@ -1,0 +1,7 @@
+{{config(
+    Schema='staging',
+    database='dev',
+    materialized='table'
+)}}
+
+select * from "NATION" limit 5;
