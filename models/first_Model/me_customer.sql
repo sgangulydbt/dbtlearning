@@ -9,7 +9,7 @@ select
     r_name as regionname,
     c_acctbal as cust_acct_bal
 
-from {{ var("CUSTOMER_tbl") }}
+from  {{ source("me_customer", "CUSTOMER")}}   
 left join
     {{ source("me_customer", "NATION") }} on customer.c_nationkey = nation.n_nationkey
 left join
