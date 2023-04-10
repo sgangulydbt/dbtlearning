@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: me_customer
+    database: DEV
+    schema: PUBLIC
+    tables:
+      - name: CUSTOMER
+        description: cust data
+      - name: NATION
+        description: NATION data
+      - name: REGION
+        description: REGION data
+
