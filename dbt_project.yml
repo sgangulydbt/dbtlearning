@@ -38,4 +38,4 @@ models:
       materialized: view
 vars:
   region_name: MIDDLE EAST
-  CUSTOMER_tbl : dev.public.CUSTOMER
+  CUSTOMER_tbl : dev.public.CUSTOMER                    
